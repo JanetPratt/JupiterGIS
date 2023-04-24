@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jupiter GIS -Female Led Mapping Solutions</title>
+<!--We used this template to make this webpage https://www.w3schools.com/w3css/tryw3css_templates_website.htm-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stylesheet.css">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/blue.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="https://www.google.com/maps/about/mymaps/" class="w3-bar-item w3-button">Google My Maps</a>
+  <a href="https://leafletjs.com/" class="w3-bar-item w3-button">Leaflet</a>
+  <a href="https://www.qgis.org/en/site/" class="w3-bar-item w3-button">QGIS</a>
+  <a href="https://cloud.google.com/" class="w3-bar-item w3-button">Google Cloud Storage</a>
+  <a href="https://flemingcollege.ca/" class="w3-bar-item w3-button">Fleming College</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Jupiter GIS</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Solutions</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Process <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="googlemymaps.html" class="w3-bar-item w3-button">Google My Maps</a>
+      <a href="qgis.html" class="w3-bar-item w3-button">QGIS</a>
+      <a href="leaflet.html" class="w3-bar-item w3-button">Leaflet</a>
+      <a href="googlebucket.html" class="w3-bar-item w3-button">Google Cloud Storage</a>
+    </div>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="photos/stream.avif" alt="river in gorge" style="width:100%;min-height:350px;max-height:300px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Important!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>This Website has been created for educational purposes.</h4>
+      <h5>Please keep this in mind while scrolling. <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>The information presented here may not be appropriate for all applications.</p>
+      <p>Go to <a class="w3-text-teal" href="https://flemingcollege.ca/">Fleming College </a> to learn more.</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Keep exploring!</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<!-- <h1>Jupiter GIS</h1>
+<h2>Female Led Mapping Solutions</h2> -->
+
+
+<div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="photos/Jupitelogo3.png" alt="" style="width:60%" class="w3-circle w3-hover-opacity">
+    <h1>Jupiter GIS</h1>
+    <h2><i>Female Led Mapping Solutions</i></h2>
+    <h4>Jupiter GIS is a consulting firm owned and administrated by a team of female GIS specialists. We take pride in providing GIS solutions for clients across a wide variety of fields and specialties in a sustainable and accessible way. We are committed to partnering with clients in conservancy and ecological protection.</h4>
+  </div>
+
+<div class="w3-quarter">
+  <img src="photos/AshHeadshot2.png" alt="Ashley" style="width: 48%" class="w3-circle w3-hover-opacity">
+  <h3>Ashley Allan</h3>
+  <p>GIS Applications Specialist</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="photos/JanPOW.jpg" alt="Janet" style="width:48%" class="w3-circle w3-hover-opacity">
+  <h3>Janet Pratt</h3>
+  <p>GIS Applications Specialist</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="photos/khaz.jpg" alt="Khazana" style="width:50%" class="w3-circle w3-hover-opacity">
+  <h3>Khazana Ahmadli</h3>
+  <p>GIS Applications Specialist</p>
+</div>
+</div>
+</div>
+<!--This section holds our problem and proposal-->
+<h3>Custom Map Viewer: Our Proposal</h3>
+<p>The client for this proposal requested an online, user-friendly platform that is low cost that can provide easy evaluation of land parcels for various users. The <i>reality</i> was that they currently had no product to do this. The<i> consequences</i> of that were that parcels could not be easily assessed for significance and so the acquisition of properties could not be quickly and accurately evaluated by users.</p>
+<p>Jupiter GIS has proposed the following solution</p>
+<p>A map viewer that is:</p>
+  <li> Accessible to various users (Online).</li>
+  <li>Easy to interpret and navigate.</li>
+  <li>Easily updated, maintained and data added.</li>
+  <li> Low cost.</li>
+  <li> Can display and query various map layers.</li>
+  <li> Possible simple upload of GPS data to map viewer.</li>
+  <li> Adjustable privacy settings to secure data from public use.</li>
+<h3> Jupiter GIS proposed using one of the following platforms for this solution</h3>
+<li> Leaflet</li>
+<li> QGIS</li>
+<li> Google My Maps</li>
+<li> Google Cloud Storage and ArcGIS Online</li>
+<p>We have investigated each of these platforms and ranked them on their various pros and cons as well as documented our processes. </p>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<!-- <div class="w3-quarter"-->
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="photos/mymaps.png" alt="google my maps demo" style="width:100%">
+  <div class="w3-container">
+    <h3><a href="googlemymaps.html" >Google My Maps</a></h3>
+    <img src="photos/4stars.png" alt="4 stars" style="width:40%">
+    <p>Google My Maps is a web-based mapping platform created by Google that allows users to create, customize and share maps made from their own data. Google My maps allows users to create custom maps from uploaded data in KML, XLSX or CSV for vector space data. The map can then be customized using a variety of colors, icons and text options. The final format is stored on the users Google Drive and can be shared collaboratively to other Google users Drives. Sharing is also available via link, which can be made private.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="photos/LeafletSolution.gif" alt="Leaflet" style="width:100%">
+  <div class="w3-container">
+    <h3><a href="leaflet.html" >Esri Leaflet</a></h3>
+    <img src="photos/3stars.png" alt="3 stars" style="width:40%">
+  <p>Leaflet is a popular open-source JavaScript library used for creating interactive maps on the web. It is highly customizable and extendable, with many plugins available to add extra functionality. One of these plugins is the Esri Leaflet plugin, a lightweight and open-source tool that enables access to ArcGIS location services and ArcGIS Enterprise services. With this plugin, it is possible to leverage a range of ArcGIS services, including Esri base maps, map services, feature layers, and more, within the Leaflet JavaScript library. This integration offers a powerful and flexible solution for building high-quality interactive maps on the web.</p>
+  
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="photos/qgiswebmap.jpg" alt="QGIS Web Map Demo" style="width:100%">
+  <div class="w3-container">
+    <h3><a href="qgis.html" >QGIS</a></h3>
+    <img src="photos/3stars.png" alt="3 stars" style="width:40%">
+  <p>QGIS is an open-source application that offers an abundance of GIS functions provided by core features and plugins that allow 
+    users to explore, create, edit, manage, analyze, and export geospatial data, in addition to composing, exporting, and publishing 
+    maps. The QGIS2Web plugin is one example of the many open-source options of advanced functions available within QGIS that extends 
+    the functionality of the desktop application by allowing the user to publish a QGIS project online as a dynamic and interactive web 
+    map that is generated using Leaflet, OpenLayers, or Mapbox GL JS libraries.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="w3-card w3-white">
+    <img src="photos/bucketfail.png" alt="googlebucket" style="width:90%">
+    <div class="w3-container">
+      <h3><a href="googlebucket.html" >Google Cloud Storage: As a method to secure data in ArcGIS Online</a></h3>
+      <img src="photos/1star.png" alt="1 star" style="width:40%">
+      <p>Google Cloud Storage is a cloud based storage service that runs on Google Cloud's infrastructure. There are a number of storage products to meet a variety of needs from archiving, block storage and object storage. These storage products can be used for streaming videos, disks for virtual machines, backups, transferring archival data on a collaborative platform. Google storage has a range of pricing for these various options and can be scaled up or down for businesses or personal use. Storage solutions can be made public or require authentication through google services via assigning collaborators through the platform. It is this combination of storage and authentication that we will leverage for this project.</p>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
